@@ -1,0 +1,173 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color:#8A2BE2;
+    color: #000000;
+}
+
+/* Estilo da Seção Principal */
+.hero {
+    background-color: #8A2BE2;
+    padding: 40px 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Estilo do Quadrado */
+.quadrado {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgb(0, 0, 0);
+    padding: 20px;
+}
+
+/* Estilo do Flexbox */
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* Texto de Destaque */
+.txt-leads {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.main-title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    color: #fb0881; /* Cor rosa para destaque */
+}
+
+/* Imagem */
+.txt-leads img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+/* Botão de Call-to-Action */
+.btn-cta {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FB0881;; /* Cor rosa */
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn-cta:hover {
+    background-color: #FB0881;; /* Cor mais escura ao passar o mouse */
+}
+
+/* Formulário */
+.form-leads {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.input-box {
+    margin-bottom: 15px;
+}
+
+.input-box label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-box input,
+.input-box select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #FB0881;
+    border-radius: 4px;
+}
+
+.input-box input:focus,
+.input-box select:focus {
+    border-color:#FB0881; /* Cor rosa ao focar */
+}
+
+/* Botão de Enviar */
+.btn-enviar input {
+    width: 100%;
+    padding: 10px;
+    background-color: #fb0881; /* Cor rosa */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-enviar input:hover {
+    background-color: #d0006b; /* Cor mais escura ao passar o mouse */
+}
+
+/* Estilo das Seções */
+.sobre, .depoimentos, .faq {
+    padding: 40px 0;
+    background-color:#8A2BE2;
+    margin-top: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #fb0881; /* Cor rosa para os títulos */
+}
+
+.depoimento-item {
+    margin-bottom: 20px;
+}
+
+.faq-item {
+    margin-bottom: 15px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #FB0881;
+    color: white;
+    padding: 20px 0;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+.social-media {
+    margin: 10px 0;
+}
+
+.social-media a {
+    color: #fff;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
+
+.contact a {
+    color: #000000; /* Cor rosa para e-mail */
+}
+
+
+
